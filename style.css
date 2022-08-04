@@ -385,3 +385,62 @@ footer {
 .dot--fill {
   background-color: #087f5b;
 }
+
+/* *******************************************************/
+
+.pagination {
+  width: 750px;
+  margin: 150px auto;
+
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+.pagi-btn {
+  background-color: #fff;
+  border: 2px solid #087f5b;
+  width: 44px;
+  height: 44px;
+  border-radius: 100px;
+  cursor: pointer;
+}
+
+.pagi-btn:hover {
+  background-color: #087f5b;
+  color: #fff;
+}
+
+.pagi-btn:hover .pagi-icons {
+  stroke: #fff;
+}
+
+.pagi-icons {
+  width: 24px;
+  width: 24px;
+  stroke: #087f5b;
+}
+
+.num {
+  font-size: 18px;
+  font-weight: 500;
+  color: #343a40;
+  height: 36px;
+  width: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.num:link,
+.num:visited {
+  text-decoration: none;
+  border-radius: 100px;
+}
+
+.num:hover,
+.num:active,
+.num.num-show {
+  background-color: #087f5b;
+  color: #fff;
+}
