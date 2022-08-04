@@ -277,36 +277,6 @@ footer {
   display: block;
 }
 
-.carousel {
-  width: 960px;
-  background-color: #087f5b;
-  margin: 100px auto;
-  padding: 32px;
-  padding-left: 86px;
-  border-radius: 8px;
-
-  display: flex;
-  align-items: center;
-  gap: 32px;
-}
-
-.img-carousel {
-  border-radius: 8px;
-
-  width: 200px;
-  height: 200px;
-
-  transform: scale(1.5);
-}
-
-.btn {
-}
-
-.btn-icons {
-  width: 24px;
-  height: 24px;
-}
-
 /* .open .hidden-box {
   display: block;
 } */
@@ -317,3 +287,101 @@ footer {
 } */
 
 /* ------------------------------------------------------------------------------------------=----------- */
+
+.carousel {
+  width: 960px;
+  background-color: #087f5b;
+  margin: 100px auto;
+  padding: 32px;
+  padding-left: 86px;
+  padding-right: 48px;
+  border-radius: 8px;
+
+  display: flex;
+  align-items: center;
+  gap: 86px;
+
+  position: relative;
+}
+
+.img-carousel {
+  border-radius: 8px;
+
+  width: 250px;
+  height: 200px;
+
+  transform: scale(1.5);
+
+  box-shadow: 12px 12px 24px rgba(0, 0, 0, 25%);
+}
+
+.testimonial-textt {
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 30px;
+  font-weight: 500;
+  color: #e6fef5;
+}
+
+.testimonial-authorr {
+  color: #c3fae8;
+}
+
+.testimonial-jobb {
+  color: #c3fae8;
+}
+
+.btn {
+  background-color: #fff;
+  border: none;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  cursor: pointer;
+
+  position: absolute;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-left {
+  left: 0;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.btn-right {
+  right: 0;
+  top: 50%;
+  transform: translate(50%, -50%);
+}
+
+.btn-icons {
+  width: 24px;
+  height: 24px;
+  stroke: #087f5b;
+}
+
+.dots {
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translate(-50%, 32px);
+  display: flex;
+  gap: 12px;
+}
+
+.dot {
+  height: 12px;
+  width: 12px;
+  background-color: #fff;
+  border-radius: 50%;
+  border: 2px solid #087f5b;
+  cursor: pointer;
+}
+
+.dot--fill {
+  background-color: #087f5b;
+}
