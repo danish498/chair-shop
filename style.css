@@ -444,3 +444,85 @@ footer {
   background-color: #087f5b;
   color: #fff;
 }
+
+/* ************************************************************************************************* */
+
+.layout {
+  font-family: sans-serif;
+  color: #343a34;
+  font-size: 24px;
+  width: 1150px;
+  margin: 150px auto;
+  display: grid;
+  grid-template-columns: 80px 400px 1fr 250px;
+  grid-template-rows: 80px 1fr;
+  height: 100vh;
+  text-align: center;
+  font-weight: bold;
+}
+
+.nav,
+.aside,
+.section {
+  padding-top: 25px;
+}
+
+.nav {
+  background-color: #343a34;
+  color: white;
+  grid-row: 1/-1;
+}
+
+.menu {
+  background: #7048e8;
+  color: #fff;
+  grid-column: 2/-1;
+
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  /* justify-content: flex-start; */
+  padding: 0 40px;
+}
+
+.section {
+  background-color: #e9ecef;
+  padding: 40px;
+  overflow: scroll;
+
+  display: flex;
+  gap: 40px;
+  flex-direction: column;
+}
+
+.email {
+  background-color: #adb5bd;
+  font-size: 24px;
+  /* padding: 16px 32px; */
+  height: 96px;
+  display: flex;
+  /* gap: 15px */
+  align-items: center;
+  justify-content: center;
+
+  flex-shrink: 0;
+}
+
+.aside {
+  background-color: #e9ecef;
+}
+
+.btn-menu {
+  font-size: 16px;
+  font-weight: bold;
+  padding: 8px 12px;
+  background-color: #5f3dc4;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-menu:last-child {
+  background-color: #d6336c;
+  margin-left: auto;
+}
