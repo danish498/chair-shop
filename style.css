@@ -528,3 +528,113 @@ footer {
 }
 
 /* *****************+++**************+****************************************************************** */
+
+.vist-a {
+  /* margin: 150px; */
+  /* font-size: 62px; */
+  /* margin: 150px */
+}
+
+/* .vist a {
+  font-size: 72px;
+  background: -webkit-linear-gradient(rgb(238, 238, 238), rgb(211, 209, 79));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+} */
+
+.vist {
+  margin: 150px;
+  font-size: 62px;
+  background: -webkit-linear-gradient(
+    rgba(4, 145, 100, 0.984),
+    rgba(213, 170, 170, 0.733)
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.hero-center {
+  display: flex;
+  align-items: center;
+  /* justify-content: start; */
+}
+
+.hero-center:last-child {
+  margin-left: 5px;
+  /* margin-right: 20px; */
+}
+
+.vist-a {
+  display: inline-block;
+  margin: 10px;
+  padding: 5px;
+  font-size: 30px;
+  width: 250px;
+  text-align: center;
+  line-height: 1.8;
+  background: linear-gradient(to right, teal, rgba(205, 97, 97, 0.733)) 0 0/0 0;
+  color: #fff;
+  border-radius: 50px;
+  position: relative;
+  z-index: 0;
+  transition: 1s all;
+}
+
+.vist-a:before,
+.vist-a:after {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: inherit;
+  border-radius: inherit;
+  transition: 1s all;
+}
+
+.vist-a:hover::after {
+  opacity: 0;
+}
+
+.vist-a:link,
+.vist-a {
+  text-decoration: none;
+}
+.vist-a:hover {
+  color: rgba(255, 0, 0, 0.447);
+  font-weight: bold;
+  text-decoration: none;
+}
+
+/* .vist-a:before {
+  -webkit-mask: linear-gradient(#fff, #fff) top / 100% 5px no-repeat,
+    linear-gradient(#fff, #fff) bottom/100% 5px no-repeat,
+    radial-gradient(
+        farthest-side at left,
+        transparent calc(100% - 6px),
+        #fff calc(100% - 5px)
+      )
+      right/27px 100% no-repeat,
+    radial-gradient(
+        farthest-side at right,
+        transparent calc(100% - 6px),
+        #fff calc(100% - 5px)
+      )
+      left/27px 100% no-repeat;
+  mask: linear-gradient(#fff, #fff) top / 100% 5px no-repeat,
+    linear-gradient(#fff, #fff) bottom/100% 5px no-repeat,
+    radial-gradient(
+        farthest-side at left,
+        transparent calc(100% - 6px),
+        #fff calc(100% - 5px)
+      )
+      right/27px 100% no-repeat,
+    radial-gradient(
+        farthest-side at right,
+        transparent calc(100% - 6px),
+        #fff calc(100% - 5px)
+      )
+      left/27px 100% no-repeat;
+} */
